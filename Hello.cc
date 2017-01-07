@@ -11,18 +11,32 @@
 
 #include <iostream>
 
-void sayHello() {
-  std::cout
-    << "Saying Hello World in different Languages\n\n"
-    << "a. English: Hello World!\n"
-    << "b. French: Bonjour le monde\n"
-    << "c. German: Hallo Wereld\n"
-    << std::endl;
-}
+/*! Create a class 'Hello'
+ *	Declare class type 'public'
+ *	'void' to return 0 value for 'sayHello' method
+*/
+class Hello 
+{
+	public:
+		void sayHello() 
+		{
+		  std::cout
+		    << "Saying Hello World in different Languages\n\n"
+		    << "a. English: Hello World!\n"
+		    << "b. French: Bonjour le monde\n"
+		    << "c. German: Hallo Wereld\n"
+		    << std::endl;
+		}
+};
 
+/* Initialize class 'Hello'
+ * Declare object 'speak'
+ * call object's method 'sayHello'
+*/
 int main()
 {
-	sayHello();
+	Hello speak;
+	speak.sayHello();
 	return 0;
 }
 
