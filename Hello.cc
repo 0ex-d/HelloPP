@@ -24,7 +24,7 @@ class Hello
 		    << "Saying Hello World in different Languages\n\n"
 		    << "a. English: Hello World!\n"
 		    << "b. French: Bonjour le monde\n"
-		    << "c. German: Hallo Wereld\n"
+		    << "c. German: Hallo Welt\n"
 		    << std::endl;
 		}
 };
